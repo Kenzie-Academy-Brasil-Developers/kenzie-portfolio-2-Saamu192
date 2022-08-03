@@ -5,6 +5,8 @@ import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs } from "react-icons/fa";
+import { SiRedux, SiTypescript, SiReactrouter } from "react-icons/si";
+import { MdApi } from "react-icons/md";
 
 export const stackData = [
   {
@@ -16,7 +18,7 @@ export const stackData = [
     img: imgCSS,
   },
   {
-    title: "JS",
+    title: "JavaScript",
     img: imgJS,
   },
   {
@@ -32,4 +34,8 @@ export const stackData = [
     img: imgReact,
   },
   { title: "Vuejs", img: FaVuejs },
+  { title: "Redux", img: SiRedux },
+  { title: "Context-API", img: MdApi },
+  { title: "React-Router-Dom", img: SiReactrouter },
+  { title: "TypeScript", img: SiTypescript },
 ];
