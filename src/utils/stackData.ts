@@ -4,11 +4,17 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
 import { SiRedux, SiTypescript, SiReactrouter } from "react-icons/si";
 import { MdApi } from "react-icons/md";
+import { SiDeno, SiDocker, SiFigma } from "react-icons/si";
+import { IconType } from "react-icons";
 
-export const stackData = [
+interface IStack {
+  title: string,
+  img: IconType | string
+}
+
+export const stackData: IStack[] = [
   {
     title: "HTML",
     img: imgHTML,
@@ -17,6 +23,7 @@ export const stackData = [
     title: "CSS",
     img: imgCSS,
   },
+  {title: "Figma", img: SiFigma}
   {
     title: "JavaScript",
     img: imgJS,
@@ -26,16 +33,17 @@ export const stackData = [
     img: imgNode,
   },
   {
-    title: "Styled Components",
-    img: imgStyled,
-  },
-  {
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+  {
+    title: "Styled Components",
+    img: imgStyled,
+  },
   { title: "Redux", img: SiRedux },
   { title: "Context-API", img: MdApi },
   { title: "React-Router-Dom", img: SiReactrouter },
   { title: "TypeScript", img: SiTypescript },
+  { title: "Deno", img: SiDeno },
+  { title: "Docker", img: SiDocker },
 ];
