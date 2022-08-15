@@ -10,8 +10,8 @@ import { SiDeno, SiDocker, SiFigma } from "react-icons/si";
 import { IconType } from "react-icons";
 
 interface IStack {
-  title: string,
-  img: IconType | string
+  title: string;
+  img: IconType | string;
 }
 
 export const stackData: IStack[] = [
@@ -23,7 +23,7 @@ export const stackData: IStack[] = [
     title: "CSS",
     img: imgCSS,
   },
-  {title: "Figma", img: SiFigma}
+  { title: "Figma", img: SiFigma },
   {
     title: "JavaScript",
     img: imgJS,
