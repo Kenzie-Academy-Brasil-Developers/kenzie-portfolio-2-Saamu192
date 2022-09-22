@@ -24,6 +24,8 @@ interface IStack {
   img: IconType | string;
 }
 
+// stacks
+
 export const stackData: IStack[] = [
   {
     title: "HTML",
