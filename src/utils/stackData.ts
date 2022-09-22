@@ -6,7 +6,17 @@ import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { SiRedux, SiTypescript, SiReactrouter } from "react-icons/si";
 import { MdApi } from "react-icons/md";
-import { SiDeno, SiDocker, SiFigma } from "react-icons/si";
+import { GiTRexSkull } from "react-icons/gi";
+import { BsBraces } from "react-icons/bs";
+import {
+  SiDeno,
+  SiDocker,
+  SiFigma,
+  SiPython,
+  SiPrisma,
+  SiPostgresql,
+  SiMongodb,
+} from "react-icons/si";
 import { IconType } from "react-icons";
 
 interface IStack {
@@ -46,4 +56,10 @@ export const stackData: IStack[] = [
   { title: "TypeScript", img: SiTypescript },
   { title: "Deno", img: SiDeno },
   { title: "Docker", img: SiDocker },
+  { title: "PostegreSQL", img: SiPostgresql },
+  { title: "MongoDB", img: SiMongodb },
+  { title: "TypeORM", img: BsBraces },
+  { title: "Prisma", img: SiPrisma },
+  { title: "Python", img: SiPython },
+  { title: "COBOL", img: GiTRexSkull },
 ];
